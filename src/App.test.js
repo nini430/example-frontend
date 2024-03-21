@@ -3,6 +3,43 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/I was changed/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+
+test('renders learn react link1', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/I was changed/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link1', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/I was changed/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link1', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/I was changed/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link1', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/I was changed/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link1', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/I was changed/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders learn react link1', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/I was changed/i);
   expect(linkElement).toBeInTheDocument();
 });
